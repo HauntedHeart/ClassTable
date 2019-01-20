@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_alpha50">#80FFFFFF</color>
+    <color name="white_alpha25">#40FFFFFF</color>
+    <color name="app_gold">#FF7A59</color>
+    <color name="app_white_slight">#FBFBFB</color>
+
+    <color name="theme_dark">#2A3033</color>
+    <color name="theme_dark2">#787C7E</color>
+    <color name="app_white">#ffffff</color>
+
+    <color name="app_timeline_graybg">#EBEBEB</color>
+    <color name="app_timeline_lightbg">#F3665A</color>
+    <color name="app_timeline_tag">#EDECCD</color>
+</resources>

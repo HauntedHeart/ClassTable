@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\ClassTable\\account\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\ClassTable\\account\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ClassTable\\account\\build\\intermediates\\res\\merged\\debug\\layout\\register_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\ClassTable\\account\\src\\main\\res\\layout\\register_layout.xml"
+    }
+]
