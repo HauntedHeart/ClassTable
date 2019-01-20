@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/picture1">
+    <RelativeLayout
+        android:id="@+id/title_addcourse"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="修改课程"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip" />
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/base_action_bar_back_normal" />
+
+        <ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/title_back"
+            android:background="@color/colorPrimary"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_white"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/picture5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/app_white"
+                    android:text="名称" />
+
+                <EditText
+                    android:id="@+id/editcourse_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="名称"
+                    android:textColorHint="@color/white_alpha50"
+                    android:textColor="@color/app_white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/app_white"
+                    android:text="教室" />
+
+                <EditText
+                    android:id="@+id/editcourse_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/app_white"
+                    android:textColorHint="@color/white_alpha50"
+                    android:hint="教室"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editcourse_savebutton"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/loginbutton_style"
+                android:clickable="true"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="保存课程"
+                    android:textColor="@color/app_white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/editcourse_deletebutton"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/deletebutton_style"
+                android:clickable="true"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除课程"
+                    android:textColor="@color/app_white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
